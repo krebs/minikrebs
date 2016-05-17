@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -x
-echo "x${BINTRAY_API_KEY}x"
+echo "BINTRAY: x${BINTRAY_API_KEY}x"
 echo "x${BINTRAY_API_KEY:-}x"
 
 cd $(dirname $(readlink -f $0))
