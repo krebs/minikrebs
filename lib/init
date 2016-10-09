@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 set -x
+echo "BINTRAY: x${BINTRAY_API_KEY}x"
+echo "x${BINTRAY_API_KEY:-}x"
 
 cd $(dirname $(readlink -f $0))
 if [ ! -e Makefile ] ;then 
